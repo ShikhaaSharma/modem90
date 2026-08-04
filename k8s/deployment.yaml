@@ -18,7 +18,7 @@ spec:
 
     spec:
       containers:
-• name: nginx
-        image: <dockerhub-username>/my-k8s-demo
-        ports:
-• containerPort: 80
+        - name: nginx
+          image: <dockerhub-username>/my-k8s-demo:v1
+          ports:
+            - containerPort: 80
